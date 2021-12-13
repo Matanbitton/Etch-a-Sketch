@@ -1,11 +1,28 @@
+body{
+    background-color: rgb(20, 19, 19);
+    
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
 .title {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 50px;
-    font-family: 'JetBrains Mono', monospace;
-    color: rgb(177, 6, 6);
+    font-family: 'Orbitron', sans-serif;
+    color: yellow;
     border: solid black 1px;
     font-weight:bolder;
+    background-color: rgb(177, 6, 6);
+    border-radius: 1em;
+    width: 40%;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
 }
 #container {
     display: flex;
@@ -17,11 +34,23 @@
     padding: 5px;
     width: 500px;
     height: 500px;
-    background-color: rgb(43, 131, 172);
+    background-color: rgb(177, 6, 6)
+    ;
 }
 .square {
     background-color: rgb(255, 255, 255);
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+button{
+    font-family: 'Orbitron', sans-serif;
 
-    
-   
+    background-color:  rgb(177, 6, 6);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 1em;
+    color: yellow;
 }
