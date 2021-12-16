@@ -1,11 +1,11 @@
 body{
     background-color: rgb(20, 19, 19);
-    
 }
 
 .title-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .title {
     display: flex;
@@ -18,7 +18,7 @@ body{
     font-weight:bolder;
     background-color: rgb(177, 6, 6);
     border-radius: 1em;
-    width: 40%;
+    width: 500px;
 }
 .game-container{
     display: flex;
@@ -53,4 +53,9 @@ button{
     font-size: 20px;
     border-radius: 1em;
     color: yellow;
+}
+#sketch-board-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
